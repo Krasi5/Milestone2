@@ -8,16 +8,24 @@
 </head>
 <body>
     <div class="main-area">
-        <h1>BMI Calculator</h1>
-   
+        <h1 class="site-title">BMI Calculator</h1>
+    <div class="units">
+       <button>Units</button>
+    </div>
+    <label for="male">Male</label> 
+    <input type="radio" id="male" name="sex" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="sex"  value="female">
     <div class="height-field">
         <h3>Height</h3>
+        <input type="number">
     </div>
     <div class="weight-field">
         <h3>Weight</h3>
+        <input type="number">
     </div>
-    <div class="outcome-field">
-        <h3>Result</h3>
+    <div class="outcome-field"><h2></h2>
+    <input type="submit" value="Your BMI">
     </div>
 </div>
 </body>
