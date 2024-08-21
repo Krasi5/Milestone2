@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="discription" content="Body mass index calculator">
     <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-area">
-        <h1 class="site-title">BMI Calculator</h1>
-    <div class="units">
-       <button>Units</button>
-    </div>
-    <label for="male">Male</label> 
-    <input type="radio" id="male" name="sex" value="male">
-    <label for="female">Female</label>
-    <input type="radio" id="female" name="sex"  value="female">
+        <h2 class="site-title">Body mass index (BMI) Calculator</h1>
+            <p>BMI Calculator is a tool that helps you assess how your weight-height relation can affect your health. BMI result is the division of the weight by squared height. The score shows if the person is underweight, normal, overweight or obese. The tool should not be used by by pregnant or lactating women, people under 18 years old or a person with an eating disorder.</p>
+    <div class="units-field">Units</div>
+    <div class="units-button">Metric</div>
+    <input type="radio" id="metric" name="unit">
+    <div class="units-button">Imperial</div> 
+    <input type="radio" id="imperial" name="unit">
     <div class="height-field">
         <h3>Height</h3>
         <input type="number">
@@ -25,9 +27,11 @@
         <input type="number">
     </div>
     <div class="outcome-field"><h2></h2>
-    <input type="submit" value="Your BMI">
+    <input type="submit" value="calculate">
+    <span>Your BMI</span>
+    <input type="reset" value="reset">
     </div>
-</div>
+<div class="explain-result"><button class="btn btn--big">What your result mean</button></div>
 </body>
 <script src="assets/js/script.js"></script>
 </html>
