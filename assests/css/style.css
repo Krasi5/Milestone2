@@ -1,7 +1,7 @@
 .main-area {
     background-color: antiquewhite;
-    height: 75vh;
-    width: 75vh;
+    height: 100vh;
+    width: 100%;
 }
 .site-title {
 text-align: center;
@@ -9,5 +9,25 @@ text-transform: uppercase;
 
 }
 .units {
+    margin-bottom: 150px;
     padding: 25px;
+}
+.jumbotron{
+    text-align: center;
+    margin: 10px auto;
+    background-color: lightskyblue;
+    justify-content: center;
+    height: 70%;
+    width: 75%;
+}
+.weight-field {
+margin-top: 50px;
+}
+.height-field{
+    margin-top: 50px;
+}   
+.outcome-field {
+    margin-top: 50px ;
+    margin-bottom: 50px;
+
 }
