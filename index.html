@@ -11,58 +11,25 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main-area">
-        <h2 class="site-title">Body mass index (BMI) Calculator</h2>
-            <p>BMI Calculator is a tool that helps you assess how your weight-height relation can affect your health. BMI result is the division of the weight by squared height. The score shows if the person is underweight, normal, overweight or obese. The tool should not be used by people under 18 years old, pregnant or lactating women or a person with an eating disorder.</p>
-         
-            <div class="jumbotron">
-                <div class="container">     
-   
-    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <button type="button" class="btn btn-outline-primary">Metric</button>
-        <button type="button" class="btn btn-outline-primary">Imperial</button>
-   
-</div>
-  <!--  <div class="row"></div>
-    <div class="col units-button">
-        <button type="button" class="btn btn-outline-primary">Metric</button>
-    
-</div>
-    <div class="col units-button">
-        <button type="button" class="btn btn-outline-secondary">Imperial</button>
-
-</div>--> 
-
-<div class="row">
-    <div class=" col height-field">
-        <h4>Height</h4></div>
-        <div class="col height-field">
-        <input type="number" placeholder="centimeters">
-    </div>
-</div>
-<div class="row">
-    <div class="col weight-field">
-        <h5>Weight</h5></div>
-        <div class="col weight-field">
-        <input type="number" placeholder="">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col outcome-field"><h2></h2>
-            
-    <input  class="btn btn-outline-primary" type="submit" value="Calculate">
-
-    <input class="btn btn-outline-primary" type="reset" value="Reset">
-
-    </div>
-</div>
-</div>
-<div class=" col explain-result">
-    <button type="button" class="btn btn-outline-primary btn-lg">What your result mean</button></div>
-</div>
-</div>
-
+    <div class="main-page container-fluid">
+        <div class="jumbotron">
+         <h2>BMI Calculator</h2> 
+          <div class="col d-none d-sm-block">
+         BMI Calculator is a tool that helps you assess how your weight-height relation can affect your health. BMI result is the division of the weight by squared height. The score shows if the person is underweight, normal, overweight or obese. The tool should not be used by people under 18 years old, pregnant or lactating women or a person with an eating disorder.
+     </div>    
+         <div class="height">
+             <label for="height">Height</label>
+             <input class="field" id = "height" type ="number" step="0.01" placeholder="meters">  
+           </div>
+           <div class="weight">
+             <label for="weight">Weight</label>
+             <input class="field" id = "weight" type ="number" placeholder="kilograms" required> 
+           </div>
+           <button class="action" onclick ="bmiCalculation()">Calculate BMI</button>
+           <div id="result" class="result"></div>
+        </div>
+        <div class="advise" id="advise" ></div>
+     </div>
 
 <script src="assets/js/script.js"></script>
 </body>
