@@ -1,7 +1,7 @@
 
 .main-page{
     height: 100vh;
-    background:  url("../images/knife-and-fork-2754149.jpg") no-repeat bottom right fixed;
+    background:  url("../images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +17,7 @@
     border-radius: 50px;
     text-align: center;
     margin: 10px auto;
-    background-color: gold;
+    background-color: yellow;
     justify-content: center;
     height: 60%;
     width: 50%;
@@ -37,4 +37,7 @@
 .action {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.footer-container {
+    background-color: yellow;
 }
