@@ -1,7 +1,7 @@
 
 .main-page{
     height: 100vh;
-    background:  url("../images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
+    background:  url(".git add/images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,5 +39,11 @@
     margin-bottom: 20px;
 }
 .footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
     background-color: yellow;
-}
+    color: rgb(116, 114, 114);
+    text-align: center;
