@@ -2,54 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="discription" content="Body mass index calculator">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main-page container-fluid">
-        <div class="jumbotron">
-         <h2>BMI Calculator</h2> 
-          <div class="col d-none d-sm-block">
-         BMI Calculator is a tool that helps you assess how your weight-height relation can affect your health. BMI result is the division of the weight by squared height. The score shows if the person is underweight, normal, overweight or obese. The tool should not be used by people under 18 years old, pregnant or lactating women or a person with an eating disorder.
-     </div>    
-         <div class="height">
-             <label for="height">Height</label>
-             <input class="field" id = "height" type ="number" step="0.01" placeholder="meters">  
-           </div>
-           <div class="weight">
-             <label for="weight">Weight</label>
-             <input class="field" id = "weight" type ="number" placeholder="kilograms" required> 
-           </div>
-           <button class="action" onclick ="bmiCalculation()">Calculate BMI</button>
-           <div id="result" class="result"></div>
+<div class="row main-page">
+    <div class="col-md-6 calculator-field">
+        <h2 class="title">BMI Calculator</h2>
+        <div class="info">
+            <p>BMI Calculator is a tool that helps you assess how your weight-height relation can affect your health. BMI result is the division of the weight by squared height. The score shows if the person is underweight, normal, overweight or obese. The tool should not be used by people under 18 years old, pregnant or lactating women or a person with an eating disorder.</p>
         </div>
-        <div class="advise" id="advise" ></div>
-     </div>
-     <footer class="container">
-        <div class="container-fluid footer-container">
-       <ul>
-        <li class="list-inline-item">
-      <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i> <span class="sr-only">Facebook</span></a>
-      </li>
-      <li class="list-inline-item">
-      <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter" ></i> <span class="sr-only">Twitter</span></a>
-      </li>
-      <li class="list-inline-item">
-      <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i> <span class="sr-only">Instagram</span></a>
-      </li>
-      <li class="list-inline-item">
-      <a target="_blank" href="https://www.youtube.com" ><i class="fab fa-youtube"></i> <span class="sr-only">YouTube</span></a>
-      </li>
-      </ul>
-      </div>
-      </footer>
-<script src="assets/js/script.js"></script>
+        <div class="height">
+            <label for="height">Height</label>
+            <input class="field" id = "height" type ="number" step="0.01" placeholder="meters">  
+          </div>
+          <div class="weight">
+            <label for="weight">Weight</label>
+            <input class="field" id = "weight" type ="number" placeholder="kilograms" required> 
+          </div>
+          <button class="btn btn-outline-dark btn-lg action" onclick ="bmiCalculation()">Calculate BMI</button>
+          <div id="result" class="result"></div>
+       </div>
+   
+    <div class="col-md-6 result-field">
+        <h2 class="result-title">Result explaned</h2>
+        <div class="result-info">
+            <p class="under">The underweight category suggests your body does not get enough nutrition and vitamins. It may make you more tired, it can affect your skin, bones, hair, and nails. Consider talking to your GP for advice on how to increase your BMI.</p>
+            <p class="normal">Normal category means that your body is in the healthy range. Continue to maintain healthy eating and exercise.</p>
+            <p class="overweight">The overweight category means that the extra weight you have may put your health at risk of cardiovascular disease and type 2 diabetes. Consider talking to your GP for advice on how to loose some weight.</p>
+            <p class="obese">The obese category means that  you are at greater risk of cardiovascular disease and type 2 diabetes. Consider talking to your GP for advice on how to decrease your BMI</p>
+        </div>
+    </div>
+</div>
+<footer class="container">
+    <div class="container-fluid footer-container">
+   <ul>
+    <li class="list-inline-item">
+  <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i> <span class="sr-only">Facebook</span></a>
+  </li>
+  <li class="list-inline-item">
+  <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter" ></i> <span class="sr-only">Twitter</span></a>
+  </li>
+  <li class="list-inline-item">
+  <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i> <span class="sr-only">Instagram</span></a>
+  </li>
+  <li class="list-inline-item">
+  <a target="_blank" href="https://www.youtube.com" ><i class="fab fa-youtube"></i> <span class="sr-only">YouTube</span></a>
+  </li>
+  </ul>
+  </div>
+  </footer>
+   <script src="assets/js/script.js"></script> 
 </body>
-
 </html>

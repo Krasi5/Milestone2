@@ -12,7 +12,7 @@ function bmiCalculation() {
     if (bmi < 18.5){
         bmiType = "Underweight"
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-        bmiType = "Normal Weight"
+        bmiType = "Normal"
     } else if (bmi >= 25 && bmi <= 29.9) {
         bmiType = "Overweight"
     } else if (bmi >= 30){
@@ -20,6 +20,6 @@ function bmiCalculation() {
     }
     
     document.getElementById("result").innerHTML = 
-            "Your BMI is " + bmi.toFixed(1) + "<br>" +"You are " + bmiType
+            "Your BMI is " + bmi.toFixed(1) + "<br>" +"Your BMI category is " + bmiType
         }
      

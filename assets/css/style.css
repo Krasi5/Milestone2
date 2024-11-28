@@ -1,7 +1,7 @@
 
 .main-page{
     height: 100vh;
-    background:  url(".git add/images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
+    background:  url("./images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,40 +10,88 @@
     align-items: center;
     justify-content: center; 
 }
-
-
-.jumbotron{
-    
-    border-radius: 50px;
+.calculator-field {
+    height: 75vh;
+    background-color: yellowgreen;
+    color: #393D47;;
     text-align: center;
-    margin: 10px auto;
-    background-color: yellow;
-    justify-content: center;
-    height: 60%;
-    width: 50%;
+
 }
-.height {
-    margin-top: 20px;
-    margin-bottom: 10px;
+.title{
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
-.weight {
-    margin-top: 20px;
-    margin-bottom: 10px;
+.info{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.field {
-    justify-content: center;
-    width: 50%;
+.result-field {
+    height: 75vh;
+    background-color: bisque;
+    color: #393D47;
+    text-align: center;
 }
-.action {
-    margin-top: 10px;
-    margin-bottom: 20px;
+.result-title{
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
+.result-info{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+p.under {
+    border: 2px solid #393D47;
+    border-radius: 8px;
+    padding: 5px;
+}
+p.normal{
+    border: 2px solid #393D47;
+    border-radius: 8px;
+    padding: 5px;
+}
+p.overweight{
+    border: 2px solid #393D47;
+    border-radius: 8px;
+    padding: 5px;
+}
+p.obese{
+    border: 2px solid #393D47;
+    border-radius: 8px;
+    padding: 5px;
+}
+.height{
+    padding-top: 40px;
+}
+.weight{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.result{
+    padding-top: 40px;
+    font-size: x-large;
+}
+
+
 .footer-container {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 40px;
-    background-color: yellow;
-    color: rgb(116, 114, 114);
+    background-color: yellowgreen;
+    color: #393D47;;
     text-align: center;
+  }
+ .list-inline-item {
+    margin: 7px;
+ }
+ .footer-container i {
+    color: bisque;
+    font-size: 160%;
+    padding: 5%;
+    margin: 0;
+ }
+ @media (min-width: 576px) { ... }
