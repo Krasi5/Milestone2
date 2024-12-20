@@ -1,5 +1,4 @@
-
-.main-page{
+.main-page {
     height: 100vh;
     background:  url("./images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -10,33 +9,43 @@
     align-items: center;
     justify-content: center; 
 }
+.col-md-6 {
+    float: left;
+    width: 50%;
+    padding: 12px;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .calculator-field {
-    height: 75vh;
     background-color: yellowgreen;
     color: #393D47;;
     text-align: center;
-
 }
-.title{
+.title {
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.info{
+.info {
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
 }
 .result-field {
-    height: 75vh;
-    background-color: bisque;
-    color: #393D47;
+    background:
+      linear-gradient(to right,
+       #d6d7d8,
+       bisque
+      );
     text-align: center;
 }
-.result-title{
+.result-title {
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.result-info{
+.result-info {
     padding-left: 30px;
     padding-right: 30px;
     text-align: justify;
@@ -44,37 +53,34 @@
 p.under {
     border: 2px solid #393D47;
     border-radius: 8px;
-    padding: 5px;
+    padding: 1px;
 }
-p.normal{
+p.normal {
     border: 2px solid #393D47;
     border-radius: 8px;
-    padding: 5px;
+    padding: 1px;
 }
-p.overweight{
+p.overweight {
     border: 2px solid #393D47;
     border-radius: 8px;
-    padding: 5px;
+    padding: 1px;
 }
-p.obese{
+p.obese {
     border: 2px solid #393D47;
     border-radius: 8px;
-    padding: 5px;
+    padding: 1px;
 }
-.height{
+.height {
     padding-top: 40px;
 }
-.weight{
+.weight {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-.result{
+.result {
     padding-top: 40px;
     font-size: x-large;
 }
-
-
 .footer-container {
     position: fixed;
     left: 0;
@@ -94,4 +100,8 @@ p.obese{
     padding: 5%;
     margin: 0;
  }
- @media (min-width: 576px) { ... }
+ @media screen and (max-width: 768px) {
+    .col-md-6 {
+     width: 100%;
+    }
+}
