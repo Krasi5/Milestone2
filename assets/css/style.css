@@ -1,6 +1,6 @@
 .main-page {
     height: 100vh;
-    background:  url("../images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
+    background:  url("./images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
