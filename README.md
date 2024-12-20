@@ -4,7 +4,7 @@
 
 BMI Calculator site is created as a Milestone Project 2 for a Web Development course. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
-<h2 text-align="center"><img src="assets/bmi_maim.jpg"></h2>
+<h2 text-align="center"><img src="assets/bmi_main.jpg"></h2>
 
 
 ## User Experience (UX)
