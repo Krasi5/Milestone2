@@ -12,7 +12,10 @@
 .col-md-6 {
     float: left;
     width: 50%;
-    padding: 12px;
+    height: 100%;
+}
+.container{
+    height: 100%;
 }
 .container::after {
     content: "";
