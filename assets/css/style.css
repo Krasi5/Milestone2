@@ -9,26 +9,20 @@
     align-items: center;
     justify-content: center; 
 }
-.col-md-6 {
-    float: left;
-    width: 50%;
-    height: 100%;
-}
 .container{
     height: 100%;
-}
-.container::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 .calculator-field {
     background-color: yellowgreen;
     color: #393D47;;
     text-align: center;
+    width: 40%;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
 }
 .title {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 .info {
@@ -43,9 +37,13 @@
        bisque
       );
     text-align: center;
+    width: 40%;
+    float: left;
+    height: 100%;
+    padding-left: 12px;
 }
 .result-title {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 .result-info {
@@ -81,8 +79,9 @@ p.obese {
     padding-bottom: 20px;
 }
 .result {
-    padding-top: 40px;
-    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
 }
 .footer-container {
     position: fixed;
@@ -103,8 +102,9 @@ p.obese {
     padding: 5%;
     margin: 0;
  }
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1028px) {
     .col-md-6 {
-     width: 100%;
+    width: 102%;
     }
 }
+

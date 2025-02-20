@@ -4,7 +4,7 @@
 
 BMI Calculator site is created as a Milestone Project 2 for a Web Development course. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
-<h2 text-align="center"><img src="assets/documents/bmi_main.jpg"></h2>
+<h2 text-align="center"><img src="assets/documents/bmi_responsive.jpg"></h2>
 
 
 ## User Experience (UX)
@@ -49,6 +49,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 ### Languages Used 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/CSS)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
@@ -66,6 +67,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  - The W3C Markup Validator and W3C CSS Validator Services were used to validate all the pages in the project to ensure no syntax errors exist.
  - To test javascript code was used jsvalidator.
 
+
 ### Testing User Stories from User Experience (UX) Section
 
 ### Further Testing
@@ -73,15 +75,18 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 -  The Website was tested on Google Lighthouse:
 -  <img src="assets/documents/lighthouse.jpg">
 -  The website was viewed on a variety of devices such as Desktop, Macbook, iPhone 12 Pro, Samsung Galaxy S8, NestHub Max, Asus Zenbook Fold.
-- Automated testing 
+
+- Automated testing is a  code used to test the code. It has many advantages over manual testing. Automated testing is written spiciffic for the developed project and pick up the mistakes early.
+
 ### Known Bugs
 
 ## Credits
 
 ### Code
 The hero image was taken from [pexels website](https://www.pexels.com/)
-A help ith a code was seeked from [youtube] (https://www.youtube.com/) tutorials, 
-[ChatGPT] (https://chatgpt.com/),
+[stackoverflow.com](https://stackoverflow.com/)-help with page reset
+A help with a code was seeked from [youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y)
+[ChatGPT] (https://chatgpt.com/)
 [Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) learning videos
 
 ### Acknowledgements
