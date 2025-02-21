@@ -36,11 +36,19 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 
  ### Wireframes
 
+  -  Home Page Wireframe - 
+  <img src="assets/documents/wireframe.jpg">
+
+  -  Mobile Page Wireframe - 
+  <img src="assets/documents/mobile_wireframe.jpg">
+
  ## Features
   - Responsive on all devices
   - Link to social media accounts
   - Calculator for BMI
   - Reset button
+  - Result box color
+
   BMI Calculator website, created as a Milestone Project 2 for a Web Development course. Its purpose is to be a tool for finding the weight-height ratio.
  
 ## Technologies Used
@@ -62,12 +70,14 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  5. [W3schools](https://www.w3schools.com/) 
  W3schools was used to assist with styling of the website.
  6. [jsvalidator](https://jsvalidator.com/)
+ 7. [Balsamiq](https://balsamiq.com/) used for wireframes.
+
 ## Testing
  - The W3C Markup Validator and W3C CSS Validator Services were used to validate all the pages in the project to ensure no syntax errors exist.
  - To test javascript code was used jsvalidator.
  - [W3C Markup Validator]<img src="assets/documents/html_validator.jpg">
  - [W3C CSS Validator]<img src="assets/documents/css_validator.jpg">
- - [jsvalidator]<img src="js_validator.jpg">
+ - [jsvalidator]<img src="assets/documents/js_validator.jpg">
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -93,16 +103,19 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 
 - Automated testing is a code used to test the code. It has many advantages over manual testing: hundreds of tests can be done quickly, automated tests are written specifically for the developed project and pick up the mistakes early, can be written for specific case. However they do not test user experiance and are as good as the questions we ask.
 
-### Known Bugs
+### Deployment
+
+The project was deployed to Github.com using Code institute workspace - gitpod.io
 
 ## Credits
 
 ### Code
-The hero image was taken from [pexels website](https://www.pexels.com/)
-[stackoverflow.com](https://stackoverflow.com/)-help with page reset
-A help with a code was seeked from [youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y)
-[ChatGPT] (https://chatgpt.com/)
-[Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) learning videos
+The code was written by the developer, where needed help was seeked from internet.
+The hero image was taken from [pexels website](https://www.pexels.com/).
+[stackoverflow.com](https://stackoverflow.com/)-help with page reset.
+[youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y).
+[ChatGPT] (https://chatgpt.com/)- help with result appearance.
+[Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) learning videos.
 
 ### Acknowledgements
 
