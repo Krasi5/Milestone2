@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 <body>    
+    <!-- Header-->
 <div class="row main-page">
     <div class="container">
     <div class="col-md-6 calculator-field">
@@ -22,15 +23,16 @@
             <label for="height">Height</label>
             <input class="field" id = "height" type ="number" step="0.01" placeholder="meters">  
           </div>
+        <!--Calculator features-->
           <div class="weight">
             <label for="weight">Weight</label>
             <input class="field" id = "weight" type ="number" placeholder="kilograms" required> 
           </div>
           <button class="btn btn-outline-dark btn-lg action" onclick ="bmiCalculation()">Calculate BMI</button>
           <div id="result" class="result"></div>
-          <button id="reset" value="reset" class="btn btn-outline-dark btn-lg action" onclick = "window.location.reload()">Reset</button>
-          
+          <button id="reset" value="reset" class="btn btn-outline-dark btn-lg action" onclick = "window.location.reload()">Reset</button>   
        </div>
+        <!--Categories BMI-->
     <div class="col-md-6 result-field">
         <h2 class="result-title">Result explaned</h2>
         <div class="result-info">
@@ -42,6 +44,7 @@
     </div>
 </div>
 </div>
+    <!--Footer-->
 <footer class="container">
     <div class="container-fluid footer-container">
    <ul>
