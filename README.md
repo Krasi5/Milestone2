@@ -31,9 +31,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  
    #### Typography
    
-   - The Noto Serif from [Google Fonts](https://fonts.google.com/) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any 
-   reason the font isn't being imported into the site correctly. Noto is a global font collection for writing in all modern and ancient 
-   languages. The font is attractive and appropriate. 
+   - The Noto Serif from [Google Fonts](https://fonts.google.com/) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Noto is a global font collection for writing in all modern and ancient languages. The font is attractive and appropriate. 
 
     #### Imagery
     
@@ -93,12 +91,13 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  ### Testing User Stories from User Experience (UX) Section
 
 - As a First Time Visitor, I want to easily understand the main purpose of the site.
+  
   The BMI Calculator website's purpose is to be a tool for finding the weight-height ratio and guiding the users for the measures of what they can do to be within the normal category BMI. On the left box, there is an information of what BMI Calculator is and how BMI is calculated. On the right side box, there are four boxes for the different categories of BMI.
   
 <img src="assets/documents/bmi_main.jpg">
 
 - As a user, I want to find calculator to find out what my BMI is.
-- 
+  
  The calculator is situated right under the information.
 
  <img src="assets/documents/bmi_calculator.jpg">
@@ -110,7 +109,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 
  ### Manual Testing
  
--  The website was tested on Google Chrome and Microsoft Edge browsers.
+-  The website was tested on Google Chrome and Microsoft Edge, and Safari browsers.
 -  The Website was tested on Google Lighthouse:
   
 -  <img src="assets/documents/lighthouse.jpg">
@@ -131,12 +130,12 @@ The project was deployed to Github.com using Code institute workspace - gitpod.i
 
  ### Code
  
-The code was written by the developer, help was seeked from internet when needed.
-The hero image was taken from [pexels website](https://www.pexels.com/).
-[stackoverflow.com](https://stackoverflow.com/)-help with page reset.
-[youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y).
-[ChatGPT] (https://chatgpt.com/)- help with result appearance.
-[Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) learning videos.
+- The code was written by the developer, help was seeked from internet when needed.
+- The hero image was taken from [pexels website](https://www.pexels.com/).
+- [stackoverflow.com](https://stackoverflow.com/)-help with page reset.
+- [youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y).
+- [ChatGPT] (https://chatgpt.com/)- help with result appearance.
+- [Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) learning videos.
 
  ### Acknowledgements
 
