@@ -12,6 +12,7 @@
 .container{
     height: 100%;
 }
+/* Calculator Features */
 .calculator-field {
     background-color: yellowgreen;
     color: #393D47;;
@@ -51,6 +52,7 @@
     padding-right: 30px;
     text-align: justify;
 }
+/* BMI Categories */
 p.under {
     border: 2px solid #393D47;
     border-radius: 8px;
@@ -83,6 +85,7 @@ p.obese {
     padding-bottom: 20px;
     font-size: large;
 }
+/* footer */
 .footer-container {
     position: fixed;
     left: 0;
