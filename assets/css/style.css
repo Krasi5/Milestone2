@@ -85,6 +85,10 @@ p.obese {
     padding-bottom: 20px;
     font-size: large;
 }
+/* copyright*/
+.contact {
+    padding-top: 70px;
+}
 /* footer */
 .footer-container {
     position: fixed;
