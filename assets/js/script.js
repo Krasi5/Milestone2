@@ -33,5 +33,7 @@ function bmiCalculation() {
     document.getElementById("result").innerHTML = 
             "Your BMI is " + bmi.toFixed(1) + "<br>" +"Your BMI category is " + bmiType
         }
-
-    
+//copyright 
+ let date = new Date();
+ let year = date.getFullYear();
+ document.getElementById("currentYear").innerHTML = year   
