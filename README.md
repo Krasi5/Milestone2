@@ -3,7 +3,7 @@
 [View the live project here.](https://krasi5.github.io/Milestone2/)
 
 
-<h2 text-align="center"><img src="assets/documents/bmi_new_main.JPG"></h2>
+<h2 text-align="center"><img src="assets/documents/bmi_responsive_new.png"></h2>
 
 BMI Calculator site is created as a Milestone Project 2 for a Web Development course. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
@@ -70,7 +70,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
  - Bootstrap was used to assist with the styling and responsiviness of the website.
  2. [Google Fonts](https://fonts.google.com/)
- - Google fonts were used to import the 'Noto Serif' font into the GYmPlus.html file which was used on all pages throught the project.
+ - Google fonts were used to import the 'Noto Serif' font into the index.html file which was used in the project.
  3. [Font Awesome](https://fontawesome.com/)
  - Font Awesome was used to add icons of social media for aesthetic and UX purposes.
  4. [Gitpod](https://gitpod.io/) 
@@ -94,7 +94,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
   
   The BMI Calculator website's purpose is to be a tool for finding the weight-height ratio and guiding the users for the measures of what they can do to be within the normal category BMI. On the left box, there is an information of what BMI Calculator is and how BMI is calculated. On the right side box, there are four boxes for the different categories of BMI.
   
-<img src="assets/documents/bmi_main.jpg">
+<img src="assets/documents/bmi_main_new.png">
 
 - As a user, I want to find calculator to find out what my BMI is.
   
