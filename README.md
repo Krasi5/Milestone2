@@ -3,7 +3,7 @@
 [View the live project here.](https://krasi5.github.io/Milestone2/)
 
 
-<h2 text-align="center"><img src="assets/documents/bmi_responsive.jpg"></h2>
+<h2 text-align="center"><img src="assets/documents/bmi_new_main.JPG"></h2>
 
 BMI Calculator site is created as a Milestone Project 2 for a Web Development course. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
@@ -115,7 +115,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 -  <img src="assets/documents/lighthouse.jpg">
 
 -  The website was viewed on a variety of devices such as Desktop, Macbook, iPhone 12 Pro, Samsung Galaxy S8, NestHub Max, Asus Zenbook Fold.
-<img src="assets/documents/bmi_responsive.jpg">
+<img src="assets/documents/bmi_new_main.JPG">
 
  ### Automated testing
  
@@ -125,6 +125,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  ### Deployment
 
 The project was deployed to Github.com using Code institute workspace - gitpod.io
+Due to the belief that I have to deploy only working files, the JavaScript file was developed and tested offline and deployed at once.
 
 ## Credits
 
