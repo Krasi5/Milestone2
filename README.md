@@ -3,9 +3,9 @@
 [View the live project here.](https://krasi5.github.io/Milestone2/)
 
 
-<h2 text-align="center"><img src="assets/documents/bmi_responsive_new.png"></h2>
+<h2 text-align="center"><img src="assets/documents/web_responsive.png"></h2>
 
-BMI Calculator site is created as a Milestone Project 2 for a Web Development course. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
+BMI Calculator site is created as a Milestone Project 2 for a Web Development course. It is designed to be responsive and accessible on a range of devices, and easy to navigate for potential users.
 
 
 ## User Experience (UX)
@@ -15,12 +15,13 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
    #### Users Goals
   
       1. As a First Time Visitor, I want to easily understand the main purpose of the site.
-      2. As a user, I want to find calculator to use for calculation.
+      2. As a user, I want to find calculator to use for calculation of BMI.
       3. As a user, I want to know clearly what category is my BMI.
       4. As a user, I want to know what can I do for my health following the result.
       5. As a user, I want to be able to access the site from different devices.
-      2. As a Returning Visitor, I want to be able to use the calculator quick and easy.
-      3. As a Returning Visitor, I want to find an advise for what to do next. 
+      6. As a user, I want to be able to use the calculator quick and easy.
+      7. As a user, I want to ask question and get answer.
+      8. As a Returning Visitor, I want to find an advise for what can I do according to results. 
       
   
  ### Design
@@ -50,12 +51,14 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 ## Features
 
   - Responsive on all devices
-  - Link to social media accounts
-  - Calculator for BMI
+  - Links to social media accounts
+  - Calculator button for BMI calculation
   - Reset button
-  - Result box color
+  - Copyright
+  - Result box color scheme
+  - Contact box feature 
 
-  BMI Calculator website, created as a Milestone Project 2 for a Web Development course. Its purpose is to be a tool for finding the weight-height ratio in order to assess persons health.
+  BMI Calculator website, created as a Milestone Project 2 for a Web Development course. Its purpose is to be a tool for finding the weight-height ratio in order to assess person's health.
  
 ## Technologies Used
 
@@ -79,6 +82,7 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  W3schools was used to assist with styling of the website.
  6. [jsvalidator](https://jsvalidator.com/)
  7. [Balsamiq](https://balsamiq.com/) used for wireframes.
+ 8. [Codebeautify](https://codebeautify.org/) used for css validation 
 
 ## Testing
 
@@ -86,25 +90,32 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
  - To test javascript code was used jsvalidator.
  - [W3C Markup Validator]<img src="assets/documents/html_validator.jpg">
  - [W3C CSS Validator]<img src="assets/documents/css_validator.jpg">
+ - [Codebeautify validator]<img src="assets/documents/css_validated.pnp">
  - [jsvalidator]<img src="assets/documents/js_validator.jpg">
 
  ### Testing User Stories from User Experience (UX) Section
 
 - As a First Time Visitor, I want to easily understand the main purpose of the site.
   
-  The BMI Calculator website's purpose is to be a tool for finding the weight-height ratio and guiding the users for the measures of what they can do to be within the normal category BMI. On the left box, there is an information of what BMI Calculator is and how BMI is calculated. On the right side box, there are four boxes for the different categories of BMI.
+  The BMI Calculator website's purpose is to be a tool for finding the weight-height ratio and guiding the users for the measures of what they can do to be
+  within the normal category BMI. On the left box, there is an information of what BMI Calculator is and how BMI is calculated. On the right side box, there are
+  four boxes for the different categories of BMI.
   
-<img src="assets/documents/bmi_main_new.png">
+  <img src="assets/documents/bmi_main_new.png">
 
-- As a user, I want to find calculator to find out what my BMI is.
+  - As a user, I want to use calculator to find out what my BMI is.
   
- The calculator is situated right under the information.
+   The calculator is situated right under the information.
 
- <img src="assets/documents/bmi_calculator.jpg">
+   <img src="assets/documents/bmi_calculator.jpg">
 
- - As a user, I want to know clearly what category is my BMI.
+  - As a user, I want to know clearly what category is my BMI.
    
- <img src="assets/documents/bmi_results.jpg">
+   <img src="assets/documents/bmi_results.jpg">
+
+ -As a user I want to get more information and be able to address my query
+
+ <img src="assets/documents/contact_box.pnp">
   
 
  ### Manual Testing
@@ -124,8 +135,8 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 
  ### Deployment
 
-The project was deployed to Github.com using Code institute workspace - gitpod.io
-Due to the belief that I have to deploy only working files, the JavaScript file was developed and tested offline and deployed at once.
+The project was deployed to Github.com using Code institute workspace - gitpod.io, on later stage Visual Studio Code
+Due to the belief that I have to deploy only working files, the JavaScript file was developed and tested offline and deployed at once. Later on copyright was added.
 
 ## Credits
 
@@ -134,7 +145,7 @@ Due to the belief that I have to deploy only working files, the JavaScript file 
 - The code was written by the developer, help was seeked from internet when needed.
 - The hero image was taken from [pexels website](https://www.pexels.com/).
 - [stackoverflow.com](https://stackoverflow.com/)-help with page reset.
-- [youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y).
+- [youtube] (https://www.youtube.com/) tutorials, which was used in style.css-(https://www.youtube.com/watch?v=hWGgw1K-i8Y) and copyright feature.
 - [ChatGPT] (https://chatgpt.com/)- help with result appearance.
 - [Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) learning videos.
 
