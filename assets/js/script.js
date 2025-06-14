@@ -33,6 +33,13 @@ function bmiCalculation() {
     document.getElementById("result").innerHTML = 
             "Your BMI is " + bmi.toFixed(1) + "<br>" +"Your BMI category is " + bmiType
         }
+    //calculation triggered by Enter key
+    const input = document.getElementById("weight");
+    input.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            bmiCalculation();
+        }
+    });
     //copyright 
     let date = new Date();
     let year = date.getFullYear();
