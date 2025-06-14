@@ -162,3 +162,32 @@ p.obese {
     height: 120%;
     }
 }
+@media screen and (max-height: 670px){
+    .btn-lg {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+    .calculator-field {
+    height: 120%;
+    }
+    .contact {
+    padding-bottom: 80px;
+    }
+    .copyright{
+    padding-bottom: 70px;
+    }
+    .height {
+    padding-top: 40px;
+    }
+    .main-page {
+     height: 120%;
+    }   
+    .result-field {
+    height: 120%;
+    }
+    .weight {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    }   
+ }
+
