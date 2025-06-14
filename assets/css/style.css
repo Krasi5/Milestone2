@@ -1,12 +1,13 @@
+/*Backgroung Image*/
 .main-page {
-    height: 100vh;
+    align-items: center;
     background:  url("../images/pexels-foodie-factor-162291-566566.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center;
+    height: 100vh;
     justify-content: center; 
 }
 .container{
@@ -15,37 +16,52 @@
 /* Calculator Features */
 .calculator-field {
     background-color: yellowgreen;
-    color: #393D47;;
-    text-align: center;
-    width: 40%;
+    color: #393D47;
     float: left;
     height: 100%;
-    padding-left: 10px;
+    text-align: center;
+    width: 40%;
 }
 .title {
-    padding-top: 50px;
     padding-bottom: 20px;
+    padding-top: 50px;
 }
 .info {
-    text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: justify;
 }
+.height {
+    padding-top: 40px;
+}
+.weight {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.result {
+    font-size: large;
+    padding-bottom: 20px;
+    padding-top: 20px;   
+}
+/* copyright */
+.copyright {
+    padding-top: 70px;
+}
+/* Result box Features */
 .result-field {
     background:
       linear-gradient(to right,
        #d6d7d8,
        bisque
       );
-    text-align: center;
-    width: 40%;
     float: left;
     height: 100%;
-    padding-left: 12px;
+    text-align: center;
+    width: 40%;
 }
 .result-title {
-    padding-top: 50px;
     padding-bottom: 20px;
+    padding-top: 50px;
 }
 .result-info {
     padding-left: 30px;
@@ -53,56 +69,39 @@
     text-align: justify;
 }
 /* BMI Categories */
-p.under {
+.under {
     border: 2px solid #393D47;
     border-radius: 8px;
     padding: 1px;
 }
-p.normal {
+.normal {
     border: 2px solid #393D47;
     border-radius: 8px;
     padding: 1px;
 }
-p.overweight {
+.overweight {
     border: 2px solid #393D47;
     border-radius: 8px;
     padding: 1px;
 }
-p.obese {
+.obese {
     border: 2px solid #393D47;
     border-radius: 8px;
     padding: 1px;
 }
-.height {
-    padding-top: 40px;
-}
-.weight {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.result {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: large;
-}
-/* copyright*/
-.copyright {
-    padding-top: 70px;
-}
-/* modal*/
+/*modal contact Line */
 .contact {
     padding-top: 70px;
 }
-/* footer */
 .footer-container {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
     background-color: yellowgreen;
-    color: #393D47;;
+    bottom: 0;
+    color: #393D47;
+    height: 40px;
+    left: 0;
+    position: fixed;
     text-align: center;
+    width: 100%;
   }
  .list-inline-item {
     margin: 7px;
@@ -110,9 +109,10 @@ p.obese {
  .footer-container i {
     color: bisque;
     font-size: 160%;
-    padding: 5%;
     margin: 0;
+    padding: 5%;
  }
+ /* media width size adgustment */
  @media screen and (max-width: 1028px) {
     .col-md-6 {
     width: 102%;
@@ -132,6 +132,10 @@ p.obese {
     }
  }
  @media screen and (max-width: 1020px){
+    .btn-lg {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
     .height {
     padding-top: 50px;
     }
@@ -139,12 +143,12 @@ p.obese {
     padding-bottom: 55px;
     padding-top: 50px;
     }
-    .btn-lg {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    }
  }
  @media screen and (max-width: 600px){
+    .btn-lg {
+    padding-bottom: 0;
+    padding-top: 0;
+    }
     .height {
     padding-top: 40px;
     }
@@ -152,16 +156,13 @@ p.obese {
     padding-bottom: 20px;
     padding-top: 20px;
     }
-    .btn-lg {
-    padding-bottom: 0;
-    padding-top: 0;
-    }
  }
   @media screen and (max-width: 400px){
     .result-field{
     height: 120%;
     }
 }
+/* media heigth size adgustment */
 @media screen and (max-height: 670px){
     .btn-lg {
     padding-bottom: 10px;
@@ -190,4 +191,3 @@ p.obese {
     padding-top: 30px;
     }   
  }
-
