@@ -46,12 +46,12 @@ BMI Calculator site is created as a Milestone Project 2 for a Web Development co
 
   -  Mobile Page Wireframe -
 
-   <img src="assets/documents/mobil_wireframe.jpg">   
+   <img src="assets/documents/mobile_wireframe.jpg">   
  
 
 BMI Calculator website, created as a Milestone Project 2 for a Web Development course. Its purpose is to be a tool for finding the weight-height ratio in order to assess person's health.
 
-   <img src="assets/documents/purpose.jpg">   
+   <img src="assets/documents/purpose.png">   
 
 
 ## Features
@@ -177,7 +177,7 @@ BMI Calculator website, created as a Milestone Project 2 for a Web Development c
 
 - The SEO was improved by adding meta discription
 
-  <img src="assets/documents/last_light_perform.png">
+  <img src="assets/documents/lighthouse_last_report.png">
 
 -  The website was viewed on a variety of devices such as Desktop, Macbook, iPhone 12 Pro, Samsung Galaxy S8, NestHub Max, Asus Zenbook Fold.
 
