@@ -64,7 +64,7 @@ BMI Calculator website, created as a Milestone Project 2 for a Web Development c
   
   - Calculator for BMI calculation
 
-    <img src="assets/documents/mobile_normal.jpg">
+    <img src="assets/documents/mobile_normal.png">
        
   - Reset button
 
@@ -83,8 +83,6 @@ BMI Calculator website, created as a Milestone Project 2 for a Web Development c
     <img src="assets/documents/contact_form.png">
 
   - Message box
-
-    <img src="assets/documents/contact_box.png">
 
 
 
